@@ -244,7 +244,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3788,7 +3788,11 @@ sig {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				text-align: right;
+				text-align: left;
+			}
+
+			.wrapper.spotlight:nth-child(2n - 1) .content {
+				padding-left: 1.5em;
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
